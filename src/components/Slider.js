@@ -4,12 +4,16 @@ import "../App.css";
 import huracan from "../assets/images/huracan.jpg";
 import revuelto from "../assets/images/revuelto.jpg";
 import urus from "../assets/images/urus.jpg";
+import namehuracan from "../assets/images/namehuracan.png";
+import namerevuelto from "../assets/images/namerevuelto.png";
+import nameurus from "../assets/images/nameurus.png";
+import { name } from "tar/types";
 
 export default function Slider() {
   const data = [
-    { id: "1", image: huracan },
-    { id: "2", image: revuelto },
-    { id: "3", image: urus },
+    { id: "1", image: huracan, name: namehuracan },
+    { id: "2", image: revuelto, name: namerevuelto },
+    { id: "3", image: urus, name: nameurus },
   ];
 
   return (
@@ -25,7 +29,9 @@ export default function Slider() {
       >
         {data.map((item) => (
           <SwiperSlide key={item.id}>
+            <img src={item.name} alt="Model" className="slide-title" />
             <img src={item.image} alt="Model" className="slide-item box" />
+            <p className="slide-p"></p>
           </SwiperSlide>
         ))}
       </Swiper>

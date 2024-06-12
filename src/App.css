@@ -32,7 +32,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  background-color: #f5f5f5;
+  background-color: #f5f5f7;
   color: black;
   height: 100%;
   width: 100%;
@@ -63,54 +63,89 @@ body {
 
 .nav-li:hover {
   color: #ff5017;
-  text-shadow: 0 0 10px #ff5017;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
 .nav-logo {
-  width: 38px;
-  height: 40px;
+  width: 50px;
+  height: 52px;
+  filter: invert(1);
 }
 
 .main {
   width: 100%;
-  height: 93%;
+  height: 92%;
   position: absolute;
   align-content: center;
 }
 
+/* .swiper-slide,
+.swiper-slide-next,
+.swiper-slide-prev,
+.swiper-slide-active {
+  margin-bottom: 5%;
+  margin-top: 3%;
+  height: 100%;
+} */
+
 .slider-container {
-  margin: auto;
-  width: 80%;
+  width: 100%;
+}
+
+.slide-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.slide-item {
+  width: 70%;
+  transition: ease-in-out 0.3s;
+  margin-bottom: 90px;
+  margin-top: 70px;
 }
 
 .box {
-  border-radius: 10px;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .box:hover {
   transform: scale(1.01);
-  cursor: pointer;
 }
 
-.slide-item {
-  width: 86%;
-  transition: ease-in-out 0.3s;
-  margin-bottom: 8%;
-  margin-top: 5%;
+.slide-p {
+  color: red;
+  font-size: 1.2rem;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #ff5017 !important;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  color: black !important;
   transition: ease-in-out 0.3s;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   transform: scale(1.1);
+  color: #ff5017 !important;
 }
 
 .swiper-pagination-bullet {
+  background-color: black !important;
+  transition: ease-in-out 0.3s;
+}
+
+.swiper-pagination-bullet:hover {
   background-color: #ff5017 !important;
+  transition: ease-in-out 0.3s;
 }
