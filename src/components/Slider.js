@@ -14,10 +14,18 @@ export default function Slider() {
 
   return (
     <div className="slider-container">
-      <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
+      <Swiper
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+        navigation
+        speed="900"
+        loop="true"
+        autoplay={{ delay: 5000 }}
+        initialSlide={1}
+      >
         {data.map((item) => (
           <SwiperSlide key={item.id}>
-            <img src={item.image} alt="Model" className="slide-item" />
+            <img src={item.image} alt="Model" className="slide-item box" />
           </SwiperSlide>
         ))}
       </Swiper>

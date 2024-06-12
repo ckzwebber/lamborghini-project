@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <Nav />
 
-      <main>
+      <div className="main">
         <Slider />
-      </main>
+      </div>
     </div>
   );
 }
