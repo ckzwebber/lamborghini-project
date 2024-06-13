@@ -7,7 +7,6 @@ import urus from "../assets/images/urus.jpg";
 import namehuracan from "../assets/images/namehuracan.png";
 import namerevuelto from "../assets/images/namerevuelto.png";
 import nameurus from "../assets/images/nameurus.png";
-import { name } from "tar/types";
 
 export default function Slider() {
   const data = [
@@ -17,10 +16,9 @@ export default function Slider() {
   ];
 
   return (
-    <div className="slider-container">
+    <div className="slider-container page">
       <Swiper
         slidesPerView={1}
-        pagination={{ clickable: true }}
         navigation
         speed="900"
         loop="true"
@@ -31,7 +29,6 @@ export default function Slider() {
           <SwiperSlide key={item.id}>
             <img src={item.name} alt="Model" className="slide-title" />
             <img src={item.image} alt="Model" className="slide-item box" />
-            <p className="slide-p"></p>
           </SwiperSlide>
         ))}
       </Swiper>
