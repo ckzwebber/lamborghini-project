@@ -16,22 +16,24 @@ export default function Slider() {
   ];
 
   return (
-    <div className="slider-container page">
-      <Swiper
-        slidesPerView={1}
-        navigation
-        speed="900"
-        loop="true"
-        autoplay={{ delay: 5000 }}
-        initialSlide={1}
-      >
-        {data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <img src={item.name} alt="Model" className="slide-title" />
-            <img src={item.image} alt="Model" className="slide-item box" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+    <div className="slider-container">
+      <div className="slider-wrapper">
+        <Swiper
+          slidesPerView={1}
+          navigation
+          speed={900}
+          loop={true}
+          autoplay={{ delay: 5000 }}
+          initialSlide={1}
+        >
+          {data.map((item) => (
+            <SwiperSlide key={item.id}>
+              <img src={item.name} alt="Model" className="slide-title" />
+              <img src={item.image} alt="Model" className="slide-item box" />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </div>
   );
 }
