@@ -7,7 +7,7 @@
   align-content: center;
 }
 
-.background-image {
+.background-image-about {
   position: absolute;
   top: 0;
   left: 0;
@@ -21,7 +21,6 @@
 }
 
 .content {
-  font-size: 1.1rem;
   margin: auto;
   max-width: 50em;
   position: relative;
@@ -31,4 +30,8 @@
   background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   margin-bottom: 2rem;
+}
+
+.content h1 {
+  padding-bottom: 10px;
 }

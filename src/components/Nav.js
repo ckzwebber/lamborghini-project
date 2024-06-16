@@ -24,7 +24,11 @@ export default function Nav() {
             ABOUT
           </Link>
         </li>
-        <li className="nav-li poppins-bold">CONTACT</li>
+        <li className="poppins-bold">
+          <Link className="nav-li nav-li-models" to="/contact">
+            CONTACT
+          </Link>
+        </li>
       </ul>
     </nav>
   );

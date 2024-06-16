@@ -12,6 +12,7 @@ import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Models from "./components/Models";
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Copy from "./components/Copy";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/models" element={<Models />} />
               <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
             </Routes>
           </CSSTransition>
         </TransitionGroup>
