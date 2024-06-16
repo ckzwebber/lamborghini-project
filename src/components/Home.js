@@ -3,7 +3,7 @@ import "./Home.css";
 import image from "../assets/images/home1.jpg";
 import Card from "./Card";
 
-function Home() {
+export default function Home() {
   return (
     <div className="home">
       <img src={image} />
@@ -19,5 +19,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

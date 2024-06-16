@@ -5,6 +5,7 @@ import "./components/Models.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Models from "./components/Models";
+import About from "./components/About";
 import Copy from "./components/Copy";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/models" element={<Models />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
         <Copy />

@@ -19,7 +19,11 @@ export default function Nav() {
             MODELS
           </Link>
         </li>
-        <li className="nav-li poppins-bold">ABOUT</li>
+        <li className="poppins-bold">
+          <Link className="nav-li nav-li-models" to="/about">
+            ABOUT
+          </Link>
+        </li>
         <li className="nav-li poppins-bold">CONTACT</li>
       </ul>
     </nav>
