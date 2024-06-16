@@ -1,4 +1,3 @@
-import img from "../assets/images/about.jpg";
 import "./About.css";
 
 export default function About() {
