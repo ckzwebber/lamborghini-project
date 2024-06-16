@@ -1,29 +1,38 @@
 .home {
-  position: absolute;
-  height: 100%;
+  position: relative;
+  height: 90vh;
   width: 100%;
+  overflow: hidden;
 }
 
-.home img {
-  box-shadow: 0 0 50px rgba(0, 0, 0, 9);
-  object-fit: cover;
+.background-image-home {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/home1.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 .text {
   position: absolute;
-  top: 12rem;
-  left: 10rem;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .home-title {
-  font-size: 5rem;
-  text-shadow: 0 0 50px rgba(0, 0, 0, 99);
+  font-size: 4rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
 
 .home-sub {
-  font-size: 1.3rem;
-  position: absolute;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
 }
