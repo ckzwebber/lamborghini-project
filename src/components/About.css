@@ -1,10 +1,10 @@
 .about {
   position: relative;
   height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   overflow: hidden;
+  align-items: center;
+  align-content: center;
 }
 
 .background-image {
@@ -21,11 +21,14 @@
 }
 
 .content {
+  font-size: 1.1rem;
+  margin: auto;
   max-width: 50em;
   position: relative;
   color: white;
-  text-align: center;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.5);
+  text-align: justify;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
+  margin-bottom: 2rem;
 }
