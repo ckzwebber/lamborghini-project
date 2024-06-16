@@ -28,7 +28,7 @@
   backdrop-filter: blur(2px);
 }
 
-.card-title {
+.card a {
   text-decoration: none;
 }
 
@@ -37,7 +37,6 @@
   font-weight: 700;
   color: inherit;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .card:hover {

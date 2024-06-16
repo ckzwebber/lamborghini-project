@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 function Card() {
   return (
-    <Link to="/models">
-      <div class="card">
+    <div class="card">
+      <Link to="/models">
         <div class="card-content">
           <p class="card-title">SEE THE MODELS</p>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 }
 
