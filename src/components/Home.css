@@ -1,0 +1,29 @@
+.home {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.home img {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 9);
+  object-fit: cover;
+  width: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 12rem;
+  left: 10rem;
+  color: white;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 5rem;
+  text-shadow: 0 0 50px rgba(0, 0, 0, 99);
+}
+
+.home-sub {
+  font-size: 1.3rem;
+  position: absolute;
+}

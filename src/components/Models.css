@@ -1,0 +1,35 @@
+.slider-container {
+  width: 100%;
+}
+
+.slide-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.slide-item {
+  width: 100%;
+  transition: ease-in-out 0.3s;
+  margin-top: 4%;
+}
+
+.box {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 50);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #181818;
+  border-radius: 5px;
+  padding: 15px;
+  color: white !important;
+  transition: ease-in-out 0.3s;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  transform: scale(1.1);
+}
