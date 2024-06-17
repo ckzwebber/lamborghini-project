@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./Home.css";
-import Card from "./Card";
+import Button from "./Button";
 
 export default function Home() {
   const [showModal, setShowModal] = useState(true);
@@ -42,7 +42,7 @@ export default function Home() {
           Lamborghini
         </p>
 
-        <Card />
+        <Button />
       </div>
     </div>
   );
