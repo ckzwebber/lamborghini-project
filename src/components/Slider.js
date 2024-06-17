@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import "../App.css";
 import huracan from "../assets/images/huracan.jpg";
 import revuelto from "../assets/images/revuelto.jpg";
 import urus from "../assets/images/urus.jpg";
@@ -10,9 +9,24 @@ import nameurus from "../assets/images/nameurus.png";
 
 export default function Slider() {
   const data = [
-    { id: "1", image: huracan, name: namehuracan },
-    { id: "2", image: revuelto, name: namerevuelto },
-    { id: "3", image: urus, name: nameurus },
+    {
+      id: "1",
+      image: huracan,
+      name: namehuracan,
+      desc: "POWER (CV) / POWER (KW) 610 CV 449 kW MAX. SPEED 260 km/h 0-100 km/h 3.4 s",
+    },
+    {
+      id: "2",
+      image: revuelto,
+      name: namerevuelto,
+      desc: "POWER (combined ICE+EE) 1015 CV MAX. SPEED > 350 km/h 0-100 km/h 2.5 s",
+    },
+    {
+      id: "3",
+      image: urus,
+      name: nameurus,
+      desc: "MAX POWER (COMBINED ICE+EE) 800 CV 588 kW MAX. SPEED 312 km/h 0-100 km/h 3.4s",
+    },
   ];
 
   return (
@@ -29,6 +43,9 @@ export default function Slider() {
           {data.map((item) => (
             <SwiperSlide key={item.id}>
               <img src={item.name} alt="Model" className="slide-title" />
+              <div className="desc">
+                <p>{item.desc}</p>
+              </div>
               <img src={item.image} alt="Model" className="slide-item box" />
             </SwiperSlide>
           ))}
