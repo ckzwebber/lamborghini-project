@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="background-image-contact"></div>
-      <h1>CONTACT</h1>
+      <h1>CONTACT OFFICIAL LAMBORGHINI</h1>
       <div className="contact-info">
         <button>
           <a
@@ -37,6 +37,13 @@ export default function Contact() {
             <span class="spn2">TIKTOK</span>
           </a>
         </button>
+        <p className="contact-me">
+          If you want to talk to whoever created this site,{" "}
+          <a href="https://webberportfolio.netlify.app/" target="_blank">
+            click here
+          </a>
+          .
+        </p>
       </div>
     </div>
   );
