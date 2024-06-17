@@ -37,7 +37,6 @@
   transition: ease-in-out 0.3s;
   margin-top: 4%;
   object-fit: cover;
-  min-height: 735px;
 }
 
 .box {
@@ -61,10 +60,118 @@
 .desc {
   position: fixed;
   bottom: 0;
-  margin-bottom: 50px;
-  margin-left: 50px;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
   font-size: 1.1rem;
-  padding-bottom: 0.5rem;
-  padding-top: 0.5rem;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  padding: 0.7rem;
   color: white;
+  background-color: #181818;
+  z-index: 1000;
+}
+
+@media (min-width: 1301px) {
+  .card {
+    display: none;
+  }
+
+  .card2 {
+    display: none;
+  }
+
+  .card3 {
+    display: none;
+  }
+
+  .cards {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .models {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+  }
+
+  .slider-container {
+    display: none;
+  }
+
+  .cards {
+    align-content: center;
+    font-size: 0.8rem;
+  }
+
+  .card {
+    width: 350px;
+    height: 146px;
+    background-color: #181818;
+    background-image: url("../assets/images/hmob.jpg");
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+  }
+
+  .card2 {
+    width: 350px;
+    height: 146px;
+    background-color: #181818;
+    background-image: url("../assets/images/rmob.jpg");
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+  }
+
+  .card3 {
+    width: 350px;
+    height: 146px;
+    background-color: #181818;
+    background-image: url("../assets/images/umob.jpg");
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    margin-bottom: 15%;
+  }
+
+  .card-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    height: 100%;
+  }
+
+  .card-content .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
 }

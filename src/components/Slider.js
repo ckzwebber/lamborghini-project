@@ -13,19 +13,19 @@ export default function Slider() {
       id: "1",
       image: huracan,
       name: namehuracan,
-      desc: "POWER (CV) / POWER (KW) 610 CV 449 kW MAX. SPEED 260 km/h 0-100 km/h 3.4 s",
+      desc: "POWER: 610 CV 449 kW - MAX. SPEED: 260 km/h - 0-100: 3.4s",
     },
     {
       id: "2",
       image: revuelto,
       name: namerevuelto,
-      desc: "POWER (combined ICE+EE) 1015 CV MAX. SPEED > 350 km/h 0-100 km/h 2.5 s",
+      desc: "POWER: 1015 CV - MAX. SPEED: 350 km/h - 0-100: 2.5s",
     },
     {
       id: "3",
       image: urus,
       name: nameurus,
-      desc: "MAX POWER (COMBINED ICE+EE) 800 CV 588 kW MAX. SPEED 312 km/h 0-100 km/h 3.4s",
+      desc: "POWER: 800 CV 588 kW - MAX. SPEED: 312 km/h - 0-100: 3.4s",
     },
   ];
 
