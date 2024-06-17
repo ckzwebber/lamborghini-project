@@ -26,13 +26,14 @@ html {
   height: 100%;
   width: 100%;
   position: absolute;
+  background: #181818;
 }
 
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
-  background-color: #181818;
+  background: #181818;
   color: white;
   height: 100%;
   width: 100%;
