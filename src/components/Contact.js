@@ -5,8 +5,9 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="background-image-contact"></div>
-      <h1>CONTACT OFFICIAL LAMBORGHINI</h1>
+
       <div className="contact-info">
+        <h1>CONTACT OFFICIAL LAMBORGHINI</h1>
         <button>
           <a
             target="_blank"

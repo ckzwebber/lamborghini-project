@@ -17,7 +17,6 @@
   background-size: cover;
   background-position: center;
   filter: blur(10px);
-  z-index: -1;
 }
 
 .content {
@@ -28,7 +27,7 @@
   text-align: justify;
   padding: 25px;
   background: rgba(0, 0, 0, 0.8);
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 1rem;
   margin-bottom: 2rem;
   transition: transform 0.5s;
@@ -40,4 +39,27 @@
 
 .content h1 {
   padding-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+  .about {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    align-items: center;
+    align-content: center;
+  }
+
+  .content {
+    max-width: 300px;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.7rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .content h1 {
+    padding-bottom: 5px;
+  }
 }

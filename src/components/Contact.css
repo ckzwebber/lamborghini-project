@@ -98,3 +98,27 @@ a {
 .contact-me {
   font-size: 1.2rem;
 }
+
+@media (max-width: 1300px) {
+  .contact-info {
+    flex: 1;
+    margin: 5px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .btn2 {
+    min-width: 110px;
+    padding: 10px 25px;
+    margin: 15px;
+    font-size: 16px;
+  }
+
+  .contact-me {
+    font-size: 1rem;
+  }
+
+  .contact h1 {
+    font-size: 1.4rem;
+  }
+}
