@@ -146,9 +146,7 @@
     background-image: url("../assets/images/umob.jpg");
     border-radius: 5px;
     color: white;
-    overflow: hidden;
     position: relative;
-    perspective: 1000px;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
     cursor: pointer;
     background-repeat: no-repeat;
@@ -165,6 +163,8 @@
     justify-content: end;
     text-align: center;
     height: 100%;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 
   .card-content .card-title {
