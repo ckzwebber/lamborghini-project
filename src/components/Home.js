@@ -21,11 +21,19 @@ export default function Home() {
               Lamborghini and is not for commercial use. All images, brands and
               names are property of Lamborghini. You can visit the official
               website by clicking{" "}
-              <a href="https://www.lamborghini.com/en-en" target="_blank">
+              <a
+                href="https://www.lamborghini.com/en-en"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 here
               </a>
               . This was created by{" "}
-              <a href="https://webberportfolio.netlify.app/" target="_blank">
+              <a
+                href="https://webberportfolio.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Carlos Miguel
               </a>
               . Thanks!
