@@ -13,6 +13,7 @@ export default function Contact() {
             target="_blank"
             href="https://www.lamborghini.com/en-en"
             class="btn2"
+            rel="noopener noreferrer"
           >
             <span class="spn2">WEBSITE</span>
           </a>
@@ -20,6 +21,7 @@ export default function Contact() {
             target="_blank"
             href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"
             class="btn2"
+            rel="noopener noreferrer"
           >
             <span class="spn2">YOUTUBE</span>
           </a>
@@ -27,6 +29,7 @@ export default function Contact() {
             target="_blank"
             href="https://www.linkedin.com/company/automobili-lamborghini-s-p-a-/"
             class="btn2"
+            rel="noopener noreferrer"
           >
             <span class="spn2">LINKEDIN</span>
           </a>
@@ -34,13 +37,18 @@ export default function Contact() {
             target="_blank"
             href="https://www.tiktok.com/@lamborghini?lang=en"
             class="btn2"
+            rel="noopener noreferrer"
           >
             <span class="spn2">TIKTOK</span>
           </a>
         </button>
         <p className="contact-me">
           If you want to talk to whoever created this site,{" "}
-          <a href="https://webberportfolio.netlify.app/" target="_blank">
+          <a
+            href="https://webberportfolio.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             click here
           </a>
           .
