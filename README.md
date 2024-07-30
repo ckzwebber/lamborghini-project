@@ -1,6 +1,6 @@
 # Lamborghini Project 
 
-Seja bem-vindo! Esse é o código-fonte do site Lamborghini-Project! Nesse site desenvolvi um site não-oficial da grande marca automobilística Lamborghini.
+Seja bem-vindo! Esse é o código-fonte do site Lamborghini-Project! Nele desenvolvi várias páginas não-oficiais da grande marca automobilística Lamborghini.
 
 ## Visão Geral
 
