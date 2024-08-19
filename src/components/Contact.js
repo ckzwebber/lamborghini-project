@@ -15,7 +15,7 @@ export default function Contact() {
             className="btn2"
             rel="noopener noreferrer"
           >
-            <span class="spn2">WEBSITE</span>
+            <span className="spn2">WEBSITE</span>
           </a>
           <a
             target="_blank"
