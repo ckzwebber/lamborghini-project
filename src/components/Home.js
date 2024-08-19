@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import "./Home.css";
+import "../styles/Home.css";
 import Button from "./Button";
 
 export default function Home() {

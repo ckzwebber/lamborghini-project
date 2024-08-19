@@ -6,8 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import "./App.css";
-import "./components/Models.css";
+import "./styles/App.css";
+import "./styles/Models.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
 import Models from "./components/Models";

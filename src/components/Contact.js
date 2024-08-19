@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "../styles/Contact.css";
 
 export default function Contact() {
   return (
@@ -12,7 +12,7 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.lamborghini.com/en-en"
-            class="btn2"
+            className="btn2"
             rel="noopener noreferrer"
           >
             <span class="spn2">WEBSITE</span>
@@ -20,26 +20,26 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"
-            class="btn2"
+            className="btn2"
             rel="noopener noreferrer"
           >
-            <span class="spn2">YOUTUBE</span>
+            <span className="spn2">YOUTUBE</span>
           </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/company/automobili-lamborghini-s-p-a-/"
-            class="btn2"
+            className="btn2"
             rel="noopener noreferrer"
           >
-            <span class="spn2">LINKEDIN</span>
+            <span className="spn2">LINKEDIN</span>
           </a>
           <a
             target="_blank"
             href="https://www.tiktok.com/@lamborghini?lang=en"
-            class="btn2"
+            className="btn2"
             rel="noopener noreferrer"
           >
-            <span class="spn2">TIKTOK</span>
+            <span className="spn2">TIKTOK</span>
           </a>
         </button>
         <p className="contact-me">
