@@ -3,7 +3,6 @@ import "../styles/About.css";
 export default function About() {
   return (
     <div className="about">
-      <div className="background-image-about"></div>
       <div className="content">
         <h1>About Us</h1>
         <p>

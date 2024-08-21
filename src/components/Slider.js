@@ -30,7 +30,6 @@ export default function Slider() {
   ];
 
   return (
-    <div className="slider-container">
       <div className="slider-wrapper">
         <Swiper
           slidesPerView={1}
@@ -41,16 +40,19 @@ export default function Slider() {
           initialSlide={1}
         >
           {data.map((item) => (
-            <SwiperSlide key={item.id}>
-              <img src={item.name} alt="Model" className="slide-title" />
-              <div className="desc">
-                <p>{item.desc}</p>
-              </div>
-              <img src={item.image} alt="Model" className="slide-item box" />
-            </SwiperSlide>
+              <SwiperSlide key={item.id}>
+                <div className="slide-title">
+                  <img src={item.name} alt="Model"/>
+                </div>
+                <div className="box">
+                  <img src={item.image} alt="Model"/>
+                </div>
+                <div className="desc">
+                  <p>{item.desc}</p>
+                </div>
+              </SwiperSlide>
           ))}
         </Swiper>
       </div>
-    </div>
   );
 }

@@ -19,9 +19,9 @@ function App() {
   const location = useLocation();
 
   return (
-    <div className="App">
+    <>
       <Nav />
-      <div className="main">
+      <main>
         <TransitionGroup>
           <CSSTransition key={location.key} classNames="fade" timeout={500}>
             <Routes location={location}>
@@ -32,9 +32,9 @@ function App() {
             </Routes>
           </CSSTransition>
         </TransitionGroup>
-      </div>
+      </main>
       <Copy />
-    </div>
+    </>
   );
 }
 

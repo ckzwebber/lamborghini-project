@@ -3,29 +3,29 @@ import { Link } from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav id="nav">
-      <ul id="nav-ul">
-        <li className="nav-li poppins-bold">
-          <Link to="/">
+    <nav>
+      <ul>
+        <li>
+          <Link className="nav-li" to="/">
             <img
               alt="Logo"
               src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/logos/2024/03_26/logo_header_01.svg"
-              className="nav-logo"
+              id="nav-logo"
             />
           </Link>
         </li>
-        <li className="poppins-bold">
-          <Link className="nav-li nav-li-models" to="/models">
+        <li>
+          <Link className="nav-li" to="/models">
             MODELS
           </Link>
         </li>
-        <li className="poppins-bold">
-          <Link className="nav-li nav-li-models" to="/about">
+        <li>
+          <Link className="nav-li" to="/about">
             ABOUT
           </Link>
         </li>
-        <li className="poppins-bold">
-          <Link className="nav-li nav-li-models" to="/contact">
+        <li>
+          <Link className="nav-li" to="/contact">
             CONTACT
           </Link>
         </li>

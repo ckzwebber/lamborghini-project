@@ -1,7 +1,9 @@
+import "../styles/App.css"
+
 export default function Copy() {
   return (
-    <div className="copy">
+    <footer>
       <p>This website is not official from Lamborghini.</p>
-    </div>
+    </footer>
   );
 }

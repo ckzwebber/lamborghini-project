@@ -4,15 +4,12 @@ import "../styles/Contact.css";
 export default function Contact() {
   return (
     <div className="contact">
-      <div className="background-image-contact"></div>
-
-      <div className="contact-info">
         <h1>CONTACT OFFICIAL LAMBORGHINI</h1>
         <button>
           <a
             target="_blank"
             href="https://www.lamborghini.com/en-en"
-            className="btn2"
+            className="contact-button"
             rel="noopener noreferrer"
           >
             <span className="spn2">WEBSITE</span>
@@ -20,7 +17,7 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"
-            className="btn2"
+            className="contact-button"
             rel="noopener noreferrer"
           >
             <span className="spn2">YOUTUBE</span>
@@ -28,7 +25,7 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.linkedin.com/company/automobili-lamborghini-s-p-a-/"
-            className="btn2"
+            className="contact-button"
             rel="noopener noreferrer"
           >
             <span className="spn2">LINKEDIN</span>
@@ -36,7 +33,7 @@ export default function Contact() {
           <a
             target="_blank"
             href="https://www.tiktok.com/@lamborghini?lang=en"
-            className="btn2"
+            className="contact-button"
             rel="noopener noreferrer"
           >
             <span className="spn2">TIKTOK</span>
@@ -53,7 +50,6 @@ export default function Contact() {
           </a>
           .
         </p>
-      </div>
     </div>
   );
 }

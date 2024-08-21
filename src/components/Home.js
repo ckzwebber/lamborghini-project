@@ -42,7 +42,6 @@ export default function Home() {
           </div>
         </div>
       )}
-      <div className="background-image-home"></div>
       <div className="text">
         <h1 className="home-title">Welcome to Lamborghini</h1>
         <p className="home-sub">
