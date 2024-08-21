@@ -58,15 +58,32 @@ main {
 footer {
   position: fixed;
   bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   width: 100%;
-  text-align: center;
   padding: 0.5rem 0;
   background-color: #181818;
   Z-index: 1000;
 }
 
-footer p {
-  margin: 0 20px;
+footer a {
+  display: flex;
+}
+
+.social {
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  background: #fefefe;
+  transition: ease-in-out 0.3s;
+}
+
+.social:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .fade-enter {
