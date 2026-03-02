@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { register } from "swiper/element/bundle";
-import "swiper/swiper-bundle.css";
 
 register();
 
